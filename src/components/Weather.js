@@ -51,7 +51,7 @@ const Weather = ({ latAndLon }) => {
 
     return (
 
-        <div className="flex flex-col pt-8 gap-14 lg:flex-row">
+        <div className="flex flex-col pt-8 gap-7 lg:flex-row">
             <div className="w-[100%]" >
                 {weatherData && <CurrentWeather weatherData={weatherData} weatherFrocastHourly={weatherFrocastHourly} />}
             </div>
